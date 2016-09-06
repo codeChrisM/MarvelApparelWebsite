@@ -16,7 +16,7 @@ figure {
   overflow: hidden; }
   .content article {
     padding: 50px 0;
-    max-width: 640px;
+    max-width: 50%;
     margin: 0 auto;
     text-align: center; }
 
@@ -33,7 +33,7 @@ img {
   overflow: hidden; }
 
 .logo {
-  height: 100px;
+  height: 140px;
   width: 100%;
   background-image: url(../images/black-bird-logo.svg);
   background-position: center;
@@ -49,18 +49,31 @@ img {
   background-repeat: no-repeat;
   background-position: right bottom;
   position: absolute;
-  left: 50%;
-  margin-left: -480px;
-  top: 380px; }
+  left:55%;
+  margin-left: -440px;
+  top: 90px; }
+
+
+.captain {
+  height: 100%;
+  width: 100%;
+  background-image: url(../images/capt.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  position: absolute;
+  left: 40%;
+  margin-left: -480px; 
+  top: 70%; }
+
 
 .back-bird {
   width: 960px;
-  height: 298px;
+  height: 100%;
   background-image: url(../images/back-bird.png);
   background-repeat: no-repeat;
   background-position: top left;
   position: absolute;
-  left: 50%;
+  left: 45%;
   margin-left: -480px; }
 
 
@@ -74,13 +87,13 @@ img {
 }
 .clothes-pics figure.is-showing {
       opacity: 1;
-      background-color: grey;
+      background-color: #b31303;
       border-radius: 3%;
       transform: translateX(0px); 
     }
     .clothes-pics figure img {
       display: block;
-      transform: scale(1.4);
+      transform: scale(.8);
       transition: all 0.3s ease-in-out;
 
  }
@@ -100,7 +113,7 @@ img {
     background-color: black;
     color: white;
     padding:2px 2px;
-    font-size: 12px;
+    font-size: 16px;
     transition: all 0.3s ease-in-out;
 }
 
@@ -195,7 +208,7 @@ img {
 
 
 footer {
-  background: black;
+  background:black;
   color: white;
   padding: 0px 0;
   position: fixed;
@@ -206,6 +219,12 @@ footer {
     max-width: 640px;
     margin: 0 auto; }
   footer a {
-    color: white; }
+    color:  #b31303; }
   footer input {
-    color: #666; }
+    color: black; }
+
+  .button-primary: {
+    background-color: black;
+  }
+
+
